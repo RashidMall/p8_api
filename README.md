@@ -26,15 +26,19 @@ You can find a full list of requirements in the `requirements.txt` file.
 ```bash  
 git clone https://github.com/your-username/image-mask-prediction-app.git  
 cd image-mask-prediction-app  
-
-1. Install the required dependencies:  
-pip install -r requirements.txt  
-
-2. Run the Flask application locally:  
-python app.py  
-
-3. The app will start running on `http://127.0.0.1:5060/`. You can now send POST requests to the `/predict_mask` endpoint to get mask predictions.
 ```
+
+2. Install the required dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the Flask application locally:
+```bash
+python app.py
+```
+
+4. The app will start running on `http://127.0.0.1:5060/`. You can now send POST requests to the `/predict_mask` endpoint to get mask predictions.
 
 ## API Endpoint
 * Endpoint: `/predict_mask`
